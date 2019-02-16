@@ -1,0 +1,73 @@
+/* Find a google font or include the custom font for your game */
+@import url('https://fonts.googleapis.com/css?family=Coiny|Indie+Flower'); /* Coiny and Indie Flower */
+body,main{
+    margin: 0 auto;
+    font-family: 'Coiny';
+}
+  main{
+    width: 100%;
+}
+/* Make all images on the screen responsive to screen width*/
+img{
+    width: 100%;
+}
+
+/* Call To Action */
+.callToAction{
+    text-align: center;
+    background-color: darkblue;
+    padding: 25px;
+    color: white;
+    font-size: 1.65em;
+    height: 300px;
+
+
+}
+
+/* Style the download link */
+
+a, a:link, a:visited{
+    text-decoration: none; /* Remove the underline */
+    background-color: white;
+    padding: 10px;    
+    text-transform: uppercase;
+    color: black;
+    border-radius: 10px;
+    margin: 5px;
+}
+a:hover{
+    background-color: #00ccff;
+    color: white;
+}
+/* Game Details */
+.gameInfo{
+    display: flex; /* Anything inside the gameInfo section will display inline */
+    flex-direction: row;
+    padding: 10px;
+}
+article
+{
+    width: 50%;         /* each article will take 50% of the screen */
+
+}
+
+
+/* Footer */
+footer{
+    background-color: darkblue;
+    color: white;
+    padding:50px;
+    font-size: 2em;
+    text-align: center;
+}
+/*When seen on a smaller screen */
+@media(max-width: 600px){
+    article{
+        width: 100%; 
+        /*Make the article fit the whole screen */
+    }
+    .gameInfo{
+        flex-wrap: wrap;
+        /*wrap to the next line */
+    }
+}
