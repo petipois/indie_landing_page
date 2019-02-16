@@ -1,2 +1,2 @@
-# indie_landing_page
-source files for indie game landing page tutorial
+# Create an indie game landing page from scratch
+Source files for indie game landing page tutorial
